@@ -3,7 +3,7 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 import HomePage from './pages/HomePage'
 import { BrowserRouter, Routes, Route } from "react-router";
 import Contact from './pages/Contact';
-import About from './pages/about';
+import AboutPage from './pages/AboutPage';
 
 
 createRoot(document.getElementById('root')).render(
@@ -12,7 +12,7 @@ createRoot(document.getElementById('root')).render(
         <Routes>
       <Route path="/" element={<HomePage />} />
       <Route path="/contact" element={<Contact/>}/>
-      <Route path="/about" element={<About/>}/>
+      <Route path="/about" element={<AboutPage/>}/>
     </Routes>
 
   </BrowserRouter>,
